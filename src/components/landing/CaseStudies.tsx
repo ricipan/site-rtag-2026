@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import colorglassAnalytics from "@/assets/colorglass-analytics.png";
 import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.png";
+import vidrosArteAnalytics from "@/assets/vidros-arte-analytics.png";
 
 const cases = [
   {
@@ -27,14 +28,14 @@ const cases = [
     ],
   },
   {
-    company: "CleanPro",
-    segment: "Limpeza Profissional",
-    city: "São Paulo - SP",
-    image: null,
+    company: "Vidros & Arte",
+    segment: "Vidraçaria",
+    city: "Sorocaba - SP",
+    image: vidrosArteAnalytics,
     metrics: [
-      { label: "Impressões/mês", before: "2.500", after: "35.000" },
-      { label: "Ligações/mês", before: "12", after: "145" },
-      { label: "Posição média", before: "28°", after: "1°" },
+      { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Sorocaba\"" },
+      { label: "Contatos/mês", before: "10", after: "90+" },
+      { label: "Posição média", before: "35°", after: "1°" },
     ],
   },
 ];
