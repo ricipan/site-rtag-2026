@@ -10,9 +10,9 @@ const testimonials = [
     contactLink: "https://wa.link/pun91f",
   },
   {
-    name: "Ana Martins",
-    company: "ColorGlass Porto Alegre",
-    result: "+110 ligações/mês",
+    name: "Robert Gurgel",
+    company: "Vidros & Arte - Sorocaba/SP",
+    result: "+90 ligações/mês",
     text: "A equipe da RTAG entende de verdade como posicionar uma empresa no Google. Hoje somos referência na nossa região e os clientes nos encontram facilmente.",
   },
   {
