@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import logoRtag from "@/assets/logo-rtag.png";
 
 const navLinks = [
   { label: "Serviços", href: "#servicos" },
@@ -16,8 +17,8 @@ export default function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/90 backdrop-blur-xl">
       <div className="container flex h-16 items-center justify-between">
-        <a href="#" className="font-display text-2xl font-bold tracking-tight">
-          <span className="text-gradient">RTAG</span>
+        <a href="#">
+          <img src={logoRtag} alt="RTAG" className="h-8" />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
