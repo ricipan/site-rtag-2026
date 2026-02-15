@@ -22,7 +22,7 @@ const cases = [
     segment: "Vidros e Esquadrias",
     city: "Porto Alegre - RS",
     image: colorglassAnalytics,
-    observation: "Saíram do zero em apenas 1 ano",
+    observation: "Do zero ao topo em 12 meses",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"esquadrias em Porto Alegre\"" },
       { label: "Contatos/mês", before: "0", after: "150+" },
@@ -94,6 +94,9 @@ export default function CaseStudies() {
                     <div className="flex items-center gap-2">
                       <span className="text-muted-foreground/60 line-through">{m.before}</span>
                       <span className="font-semibold text-primary">{m.after}</span>
+                    </div>
+                  </div>
+                ))}
               </div>
 
               {c.observation && (
@@ -101,9 +104,6 @@ export default function CaseStudies() {
                   ✦ {c.observation}
                 </p>
               )}
-                  </div>
-                ))}
-              </div>
             </motion.div>
           ))}
         </div>
