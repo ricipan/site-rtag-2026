@@ -5,6 +5,7 @@ import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.pn
 import vidrosArteAnalytics from "@/assets/vidros-arte-analytics.png";
 import msGuinchosAnalytics from "@/assets/ms-guinchos-analytics.png";
 import lucianoMatosAnalytics from "@/assets/luciano-matos-analytics.png";
+import brunaPiresAnalytics from "@/assets/bruna-pires-analytics.png";
 
 const cases = [
   {
@@ -64,6 +65,18 @@ const cases = [
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"martelinho de ouro\"" },
       { label: "Contatos/mês", before: "0", after: "60+" },
+      { label: "Posição média", before: "—", after: "1°" },
+    ],
+  },
+  {
+    company: "Bruna Pires Advocacia",
+    segment: "Direito Imobiliário",
+    city: "Porto Alegre - RS",
+    image: brunaPiresAnalytics,
+    observation: "Do zero ao topo em 6 meses",
+    metrics: [
+      { label: "Palavra-chave", before: "—", after: "1° \"advogada imobiliária Porto Alegre\"" },
+      { label: "Contatos/mês", before: "0", after: "40+" },
       { label: "Posição média", before: "—", after: "1°" },
     ],
   },
