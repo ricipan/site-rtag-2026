@@ -14,7 +14,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: portoalegreVidrosAnalytics,
     observation: null as string | null,
-    siteLink: null as string | null,
+    siteLink: "https://portoalegrevidros.com.br/",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Porto Alegre\"" },
       { label: "Contatos/mês", before: "15", after: "120+" },
