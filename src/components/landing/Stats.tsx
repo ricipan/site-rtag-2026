@@ -1,7 +1,7 @@
 import { useCountUp } from "@/hooks/useCountUp";
 
 const stats = [
-  { value: 250, suffix: "+", label: "Projetos Otimizados" },
+  { value: 160, suffix: "+", label: "Projetos Otimizados" },
   { value: 99, suffix: "%", label: "Taxa de Renovação" },
   { value: 1500000, suffix: "+", label: "Impressões Geradas", display: "1.5M" },
   { value: 20, suffix: "+", label: "Cidades Atendidas" },
