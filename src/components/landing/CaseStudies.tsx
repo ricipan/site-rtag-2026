@@ -27,7 +27,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: colorglassAnalytics,
     observation: "Do zero ao topo em 12 meses",
-    siteLink: null as string | null,
+    siteLink: "https://colorglass.net.br/",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"esquadrias em Porto Alegre\"" },
       { label: "Contatos/mês", before: "0", after: "150+" },
