@@ -86,7 +86,7 @@ export default function ContactForm() {
             <div className="text-center pt-2">
               <p className="text-sm text-muted-foreground">ou se preferir</p>
               <a
-                href="https://wa.me/5551999999999?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20RTAG"
+                href="https://wa.link/yu2sa5"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 mt-2 text-sm font-medium text-primary hover:underline"
