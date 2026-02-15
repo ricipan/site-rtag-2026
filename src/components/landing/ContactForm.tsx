@@ -1,101 +1,84 @@
-import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { ArrowRight, MessageCircle } from "lucide-react";
+import { ArrowRight, MessageCircle, ShieldCheck, TrendingUp, Users } from "lucide-react";
 import { motion } from "framer-motion";
-import { useToast } from "@/hooks/use-toast";
+
+const proofs = [
+  { icon: TrendingUp, text: "160+ empresas posicionadas no topo do Google" },
+  { icon: Users, text: "99% dos clientes renovam conosco" },
+  { icon: ShieldCheck, text: "Resultados comprovados — fale com nossos clientes" },
+];
 
 export default function ContactForm() {
-  const { toast } = useToast();
-  const [loading, setLoading] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-      toast({
-        title: "Mensagem enviada!",
-        description: "Entraremos em contato em até 24 horas.",
-      });
-      (e.target as HTMLFormElement).reset();
-    }, 1000);
-  };
-
   return (
-    <section id="contato" className="py-20 md:py-28 bg-secondary/30">
-      <div className="container">
-        <div className="mx-auto max-w-2xl">
+    <section id="contato" className="py-20 md:py-28 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-primary/5 via-accent/5 to-background" />
+      <div className="container relative">
+        <div className="mx-auto max-w-3xl text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
-            className="text-center mb-10"
           >
-            <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-3">
-              Vamos conversar
+            <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-4">
+              Pronto para dominar o Google?
             </h2>
-            <p className="font-display text-3xl font-bold md:text-4xl">
-              Agende sua reunião estratégica gratuita
+            <p className="font-display text-3xl font-bold md:text-5xl leading-tight">
+              Seus concorrentes já estão na frente.
+              <br />
+              <span className="text-gradient">Quanto mais você espera, mais clientes perde.</span>
             </p>
-            <p className="mt-4 text-muted-foreground">
-              Descubra como posicionar sua empresa nas primeiras posições do
-              Google e atrair mais clientes todos os meses.
+            <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
+              Nossos resultados falam por si — e nossos clientes comprovam. 
+              Agende uma reunião estratégica gratuita e vamos te mostrar, com dados reais, 
+              como posicionar sua empresa nas primeiras posições do Google e 
+              gerar demanda constante de novos clientes.
             </p>
           </motion.div>
 
-          <motion.form
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: 0.1 }}
-            onSubmit={handleSubmit}
-            className="space-y-4 rounded-xl border border-border bg-card p-6 md:p-8"
+            transition={{ duration: 0.5, delay: 0.15 }}
+            className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div>
-                <label className="text-sm font-medium mb-1.5 block">Nome *</label>
-                <Input placeholder="Seu nome" required maxLength={100} />
-              </div>
-              <div>
-                <label className="text-sm font-medium mb-1.5 block">Empresa *</label>
-                <Input placeholder="Nome da empresa" required maxLength={100} />
-              </div>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div>
-                <label className="text-sm font-medium mb-1.5 block">Telefone *</label>
-                <Input placeholder="(00) 00000-0000" required type="tel" maxLength={20} />
-              </div>
-              <div>
-                <label className="text-sm font-medium mb-1.5 block">Site</label>
-                <Input placeholder="www.seusite.com.br" type="url" maxLength={200} />
-              </div>
-            </div>
-            <div>
-              <label className="text-sm font-medium mb-1.5 block">Mensagem (opcional)</label>
-              <Textarea placeholder="Conte um pouco sobre seu negócio..." rows={4} maxLength={1000} />
-            </div>
-            <Button type="submit" size="lg" className="w-full gap-2" disabled={loading}>
-              {loading ? "Enviando..." : "Agendar Conversa Estratégica"}
-              <ArrowRight size={18} />
-            </Button>
-
-            <div className="text-center pt-2">
-              <p className="text-sm text-muted-foreground">ou se preferir</p>
-              <a
-                href="https://wa.link/yu2sa5"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-2 text-sm font-medium text-primary hover:underline"
-              >
-                <MessageCircle size={16} />
-                Fale pelo WhatsApp
+            <Button asChild size="lg" className="gap-2 text-base px-8 py-6">
+              <a href="https://wa.link/yu2sa5" target="_blank" rel="noopener noreferrer">
+                <MessageCircle size={20} />
+                Agendar Reunião Estratégica
+                <ArrowRight size={18} />
               </a>
-            </div>
-          </motion.form>
+            </Button>
+          </motion.div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+            className="mt-12 grid gap-4 sm:grid-cols-3"
+          >
+            {proofs.map((p, i) => (
+              <div
+                key={i}
+                className="flex items-center gap-3 rounded-lg border border-border bg-card/50 p-4 text-left"
+              >
+                <p.icon size={20} className="text-primary shrink-0" />
+                <span className="text-sm font-medium text-muted-foreground">{p.text}</span>
+              </div>
+            ))}
+          </motion.div>
+
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.45 }}
+            className="mt-8 text-sm text-muted-foreground"
+          >
+            Sem compromisso. Sem enrolação. Só resultados.
+          </motion.p>
         </div>
       </div>
     </section>
