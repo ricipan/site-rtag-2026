@@ -1,4 +1,5 @@
 import { Mail, Phone } from "lucide-react";
+import logoRtag from "@/assets/logo-rtag.png";
 
 const links = [
   { label: "Serviços", href: "#servicos" },
@@ -14,8 +15,8 @@ export default function Footer() {
       <div className="container">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <a href="#" className="font-display text-2xl font-bold tracking-tight">
-              <span className="text-gradient">RTAG</span>
+            <a href="#">
+              <img src={logoRtag} alt="RTAG" className="h-8" />
             </a>
             <p className="mt-3 text-sm text-muted-foreground max-w-xs">
               Posicionamos sua empresa no topo do Google com estratégias de SEO Local comprovadas.
