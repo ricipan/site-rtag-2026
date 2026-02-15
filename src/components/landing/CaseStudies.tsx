@@ -40,7 +40,7 @@ const cases = [
     city: "Sorocaba - SP",
     image: vidrosArteAnalytics,
     observation: null as string | null,
-    siteLink: null as string | null,
+    siteLink: "https://sorocabavidracaria.com.br/",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Sorocaba\"" },
       { label: "Contatos/mês", before: "10", after: "90+" },
