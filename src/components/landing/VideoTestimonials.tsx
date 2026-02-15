@@ -14,6 +14,7 @@ const testimonials = [
     company: "Vidros & Arte - Sorocaba/SP",
     result: "+90 ligações/mês",
     text: "A equipe da RTAG entende de verdade como posicionar uma empresa no Google. Hoje somos referência na nossa região e os clientes nos encontram facilmente.",
+    contactLink: "https://wa.link/2x7llh",
   },
   {
     name: "Roberto Lima",
