@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     name: "Anderson da Silva",
-    company: "CleanPro São Paulo",
+    company: "ColorGlass - Porto Alegre/RS",
     result: "Dobramos o nosso faturamento em um ano",
     text: "Tentamos outras agências antes, mas nenhuma entregou resultados como a RTAG. Conquistamos o primeiro lugar no Google para as principais buscas do nosso segmento.",
   },
