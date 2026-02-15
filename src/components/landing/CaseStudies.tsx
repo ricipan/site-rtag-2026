@@ -9,7 +9,7 @@ import brunaPiresAnalytics from "@/assets/bruna-pires-analytics.png";
 
 const cases = [
   {
-    company: "Porto Alegre Vidros",
+    company: "Vitrex Vidraçaria",
     segment: "Vidraçaria",
     city: "Porto Alegre - RS",
     image: portoalegreVidrosAnalytics,

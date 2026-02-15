@@ -4,7 +4,7 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Carlos Silva",
-    company: "Vidraçaria Canoas",
+    company: "Vitrex Vidraçaria",
     result: "+95 ligações/mês",
     text: "Antes da RTAG, nosso telefone quase não tocava. Em poucos meses, passamos a receber mais de 90 ligações por mês só pelo Google. O investimento se pagou logo no primeiro mês.",
   },
