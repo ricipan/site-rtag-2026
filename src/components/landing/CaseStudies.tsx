@@ -1,11 +1,13 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import colorglassAnalytics from "@/assets/colorglass-analytics.png";
 
 const cases = [
   {
     company: "Vidraçaria Canoas",
     segment: "Vidraçaria",
     city: "Canoas - RS",
+    image: null,
     metrics: [
       { label: "Impressões/mês", before: "1.200", after: "18.500" },
       { label: "Ligações/mês", before: "8", after: "95" },
@@ -16,6 +18,7 @@ const cases = [
     company: "ColorGlass",
     segment: "Vidros e Esquadrias",
     city: "Porto Alegre - RS",
+    image: colorglassAnalytics,
     metrics: [
       { label: "Impressões/mês", before: "800", after: "22.000" },
       { label: "Ligações/mês", before: "5", after: "110" },
@@ -26,6 +29,7 @@ const cases = [
     company: "CleanPro",
     segment: "Limpeza Profissional",
     city: "São Paulo - SP",
+    image: null,
     metrics: [
       { label: "Impressões/mês", before: "2.500", after: "35.000" },
       { label: "Ligações/mês", before: "12", after: "145" },
@@ -66,6 +70,17 @@ export default function CaseStudies() {
                 </div>
                 <ArrowUpRight size={20} className="text-primary" />
               </div>
+
+              {c.image && (
+                <div className="mb-4 overflow-hidden rounded-lg border border-border/50">
+                  <img
+                    src={c.image}
+                    alt={`Resultados Google Analytics - ${c.company}`}
+                    className="w-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              )}
 
               <div className="space-y-3">
                 {c.metrics.map((m) => (
