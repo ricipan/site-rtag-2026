@@ -17,9 +17,9 @@ const testimonials = [
     contactLink: "https://wa.link/2x7llh",
   },
   {
-    name: "Roberto Lima",
+    name: "Anderson da Silva",
     company: "CleanPro São Paulo",
-    result: "1º lugar no Google",
+    result: "Dobramos o nosso faturamento em um ano",
     text: "Tentamos outras agências antes, mas nenhuma entregou resultados como a RTAG. Conquistamos o primeiro lugar no Google para as principais buscas do nosso segmento.",
   },
 ];
