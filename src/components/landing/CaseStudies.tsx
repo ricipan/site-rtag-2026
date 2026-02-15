@@ -1,17 +1,18 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import colorglassAnalytics from "@/assets/colorglass-analytics.png";
+import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.png";
 
 const cases = [
   {
-    company: "Vidraçaria Canoas",
+    company: "Porto Alegre Vidros",
     segment: "Vidraçaria",
-    city: "Canoas - RS",
-    image: null,
+    city: "Porto Alegre - RS",
+    image: portoalegreVidrosAnalytics,
     metrics: [
-      { label: "Impressões/mês", before: "1.200", after: "18.500" },
-      { label: "Ligações/mês", before: "8", after: "95" },
-      { label: "Posição média", before: "32°", after: "3°" },
+      { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Porto Alegre\"" },
+      { label: "Contatos/mês", before: "15", after: "120+" },
+      { label: "Posição média", before: "28°", after: "1°" },
     ],
   },
   {
