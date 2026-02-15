@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: "Anderson Borges",
     company: "Vitrex Vidraçaria - Porto Alegre/RS",
-    result: "+120 ligações/mês",
+    result: "1° lugar em todos os serviços na cidade",
     text: "Antes da RTAG, nosso telefone quase não tocava. Em poucos meses, passamos a receber mais de 90 ligações por mês só pelo Google. O investimento se pagou logo no primeiro mês.",
     contactLink: "https://wa.link/pun91f",
   },
