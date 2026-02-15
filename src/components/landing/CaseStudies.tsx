@@ -79,7 +79,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: brunaPiresAnalytics,
     observation: "Do zero ao topo em 6 meses",
-    siteLink: null as string | null,
+    siteLink: "https://brunapiresadvogada.com.br/",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"advogada imobiliária Porto Alegre\"" },
       { label: "Contatos/mês", before: "0", after: "40+" },
