@@ -4,6 +4,7 @@ import colorglassAnalytics from "@/assets/colorglass-analytics.png";
 import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.png";
 import vidrosArteAnalytics from "@/assets/vidros-arte-analytics.png";
 import msGuinchosAnalytics from "@/assets/ms-guinchos-analytics.png";
+import lucianoMatosAnalytics from "@/assets/luciano-matos-analytics.png";
 
 const cases = [
   {
@@ -51,6 +52,18 @@ const cases = [
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"guincho em Porto Alegre\"" },
       { label: "Contatos/mês", before: "—", after: "80+" },
+      { label: "Posição média", before: "—", after: "1°" },
+    ],
+  },
+  {
+    company: "Luciano Matos Martelinho de Ouro",
+    segment: "Martelinho de Ouro",
+    city: "Novo Hamburgo - RS",
+    image: lucianoMatosAnalytics,
+    observation: "Do zero ao topo em 4 meses",
+    metrics: [
+      { label: "Palavra-chave", before: "—", after: "1° \"martelinho de ouro\"" },
+      { label: "Contatos/mês", before: "0", after: "60+" },
       { label: "Posição média", before: "—", after: "1°" },
     ],
   },
