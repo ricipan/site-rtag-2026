@@ -18,7 +18,7 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/90 backdrop-blur-xl">
       <div className="container flex h-16 items-center justify-between">
         <a href="#">
-          <img src={logoRtag} alt="RTAG" className="h-8" />
+          <img src={logoRtag} alt="RTAG" className="h-24" />
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">
