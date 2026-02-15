@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, ExternalLink } from "lucide-react";
 import colorglassAnalytics from "@/assets/colorglass-analytics.png";
 import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.png";
 import vidrosArteAnalytics from "@/assets/vidros-arte-analytics.png";
@@ -14,6 +14,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: portoalegreVidrosAnalytics,
     observation: null as string | null,
+    siteLink: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Porto Alegre\"" },
       { label: "Contatos/mês", before: "15", after: "120+" },
@@ -26,6 +27,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: colorglassAnalytics,
     observation: "Do zero ao topo em 12 meses",
+    siteLink: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"esquadrias em Porto Alegre\"" },
       { label: "Contatos/mês", before: "0", after: "150+" },
@@ -38,6 +40,7 @@ const cases = [
     city: "Sorocaba - SP",
     image: vidrosArteAnalytics,
     observation: null as string | null,
+    siteLink: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Sorocaba\"" },
       { label: "Contatos/mês", before: "10", after: "90+" },
@@ -50,6 +53,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: msGuinchosAnalytics,
     observation: null as string | null,
+    siteLink: "https://portoalegreguinchos.com.br/",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"guincho em Porto Alegre\"" },
       { label: "Contatos/mês", before: "—", after: "80+" },
@@ -62,6 +66,7 @@ const cases = [
     city: "Novo Hamburgo - RS",
     image: lucianoMatosAnalytics,
     observation: "Do zero ao topo em 4 meses",
+    siteLink: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"martelinho de ouro\"" },
       { label: "Contatos/mês", before: "0", after: "60+" },
@@ -74,6 +79,7 @@ const cases = [
     city: "Porto Alegre - RS",
     image: brunaPiresAnalytics,
     observation: "Do zero ao topo em 6 meses",
+    siteLink: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"advogada imobiliária Porto Alegre\"" },
       { label: "Contatos/mês", before: "0", after: "40+" },
@@ -142,6 +148,18 @@ export default function CaseStudies() {
                 <p className="mt-3 text-xs text-accent italic border-t border-border/50 pt-3">
                   ✦ {c.observation}
                 </p>
+              )}
+
+              {c.siteLink && (
+                <a
+                  href={c.siteLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1.5 text-xs text-muted-foreground/70 hover:text-primary transition-colors"
+                >
+                  <ExternalLink size={12} />
+                  Ver site
+                </a>
               )}
             </motion.div>
           ))}
@@ -213,6 +231,18 @@ export default function CaseStudies() {
                 <p className="mt-3 text-xs text-accent italic border-t border-border/50 pt-3">
                   ✦ {c.observation}
                 </p>
+              )}
+
+              {c.siteLink && (
+                <a
+                  href={c.siteLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-3 inline-flex items-center gap-1.5 text-xs text-muted-foreground/70 hover:text-primary transition-colors"
+                >
+                  <ExternalLink size={12} />
+                  Ver site
+                </a>
               )}
             </motion.div>
           ))}
