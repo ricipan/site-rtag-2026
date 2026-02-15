@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Quote } from "lucide-react";
+import { Quote, MessageCircle } from "lucide-react";
 
 const testimonials = [
   {
@@ -7,6 +7,7 @@ const testimonials = [
     company: "Vitrex Vidraçaria",
     result: "+120 ligações/mês",
     text: "Antes da RTAG, nosso telefone quase não tocava. Em poucos meses, passamos a receber mais de 90 ligações por mês só pelo Google. O investimento se pagou logo no primeiro mês.",
+    contactLink: "https://wa.link/pun91f",
   },
   {
     name: "Ana Martins",
@@ -53,6 +54,17 @@ export default function VideoTestimonials() {
                 <p className="font-semibold">{t.name}</p>
                 <p className="text-sm text-muted-foreground">{t.company}</p>
                 <p className="mt-1 text-sm font-medium text-primary">{t.result}</p>
+                {t.contactLink && (
+                  <a
+                    href={t.contactLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center gap-2 rounded-lg bg-primary/10 px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary/20"
+                  >
+                    <MessageCircle size={16} />
+                    Falar com {t.name.split(" ")[0]}
+                  </a>
+                )}
               </div>
             </motion.div>
           ))}
