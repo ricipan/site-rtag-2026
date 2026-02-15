@@ -155,9 +155,9 @@ export default function CaseStudies() {
                   href={c.siteLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-1.5 text-xs text-muted-foreground/70 hover:text-primary transition-colors"
+                  className="mt-4 flex items-center justify-center gap-2 rounded-lg border border-border/50 bg-secondary/50 px-4 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-primary/10 hover:border-primary/30 hover:text-primary"
                 >
-                  <ExternalLink size={12} />
+                  <ExternalLink size={14} />
                   Ver site
                 </a>
               )}
@@ -238,9 +238,9 @@ export default function CaseStudies() {
                   href={c.siteLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-3 inline-flex items-center gap-1.5 text-xs text-muted-foreground/70 hover:text-primary transition-colors"
+                  className="mt-4 flex items-center justify-center gap-2 rounded-lg border border-border/50 bg-secondary/50 px-4 py-2.5 text-sm font-medium text-foreground transition-colors hover:bg-primary/10 hover:border-primary/30 hover:text-primary"
                 >
-                  <ExternalLink size={12} />
+                  <ExternalLink size={14} />
                   Ver site
                 </a>
               )}
