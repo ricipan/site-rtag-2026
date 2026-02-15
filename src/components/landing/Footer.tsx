@@ -43,8 +43,8 @@ export default function Footer() {
               <a href="mailto:contato@rtag.com.br" className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <Mail size={14} /> contato@rtag.com.br
               </a>
-              <a href="tel:+5551999999999" className="flex items-center gap-2 hover:text-foreground transition-colors">
-                <Phone size={14} /> (51) 99999-9999
+              <a href="tel:+5551998247003" className="flex items-center gap-2 hover:text-foreground transition-colors">
+                <Phone size={14} /> (51) 99824-7003
               </a>
             </div>
             <div className="mt-4 flex gap-3">
