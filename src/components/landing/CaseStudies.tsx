@@ -3,6 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import colorglassAnalytics from "@/assets/colorglass-analytics.png";
 import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.png";
 import vidrosArteAnalytics from "@/assets/vidros-arte-analytics.png";
+import msGuinchosAnalytics from "@/assets/ms-guinchos-analytics.png";
 
 const cases = [
   {
@@ -39,6 +40,18 @@ const cases = [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Sorocaba\"" },
       { label: "Contatos/mês", before: "10", after: "90+" },
       { label: "Posição média", before: "35°", after: "1°" },
+    ],
+  },
+  {
+    company: "MS Guinchos",
+    segment: "Guincho",
+    city: "Porto Alegre - RS",
+    image: msGuinchosAnalytics,
+    observation: null as string | null,
+    metrics: [
+      { label: "Palavra-chave", before: "—", after: "1° \"guincho em Porto Alegre\"" },
+      { label: "Contatos/mês", before: "—", after: "80+" },
+      { label: "Posição média", before: "—", after: "1°" },
     ],
   },
 ];
