@@ -10,6 +10,7 @@ const cases = [
     segment: "Vidraçaria",
     city: "Porto Alegre - RS",
     image: portoalegreVidrosAnalytics,
+    observation: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Porto Alegre\"" },
       { label: "Contatos/mês", before: "15", after: "120+" },
@@ -21,10 +22,11 @@ const cases = [
     segment: "Vidros e Esquadrias",
     city: "Porto Alegre - RS",
     image: colorglassAnalytics,
+    observation: "Saíram do zero em apenas 1 ano",
     metrics: [
-      { label: "Impressões/mês", before: "800", after: "22.000" },
-      { label: "Ligações/mês", before: "5", after: "110" },
-      { label: "Posição média", before: "45°", after: "2°" },
+      { label: "Palavra-chave", before: "—", after: "1° \"esquadrias em Porto Alegre\"" },
+      { label: "Contatos/mês", before: "0", after: "150+" },
+      { label: "Posição média", before: "—", after: "1°" },
     ],
   },
   {
@@ -32,6 +34,7 @@ const cases = [
     segment: "Vidraçaria",
     city: "Sorocaba - SP",
     image: vidrosArteAnalytics,
+    observation: null as string | null,
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"vidraçaria em Sorocaba\"" },
       { label: "Contatos/mês", before: "10", after: "90+" },
@@ -91,7 +94,13 @@ export default function CaseStudies() {
                     <div className="flex items-center gap-2">
                       <span className="text-muted-foreground/60 line-through">{m.before}</span>
                       <span className="font-semibold text-primary">{m.after}</span>
-                    </div>
+              </div>
+
+              {c.observation && (
+                <p className="mt-3 text-xs text-accent italic border-t border-border/50 pt-3">
+                  ✦ {c.observation}
+                </p>
+              )}
                   </div>
                 ))}
               </div>
