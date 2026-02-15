@@ -1,5 +1,6 @@
 import { Search, FileText, Rocket, BarChart3 } from "lucide-react";
 import { motion } from "framer-motion";
+import SectionCTA from "./SectionCTA";
 
 const steps = [
   { icon: Search, title: "Diagnóstico", desc: "Analisamos sua presença digital atual, concorrentes e oportunidades no seu mercado local." },
@@ -46,6 +47,7 @@ export default function Process() {
             </motion.div>
           ))}
         </div>
+        <SectionCTA text="Pronto para começar? O primeiro passo é uma conversa." />
       </div>
     </section>
   );

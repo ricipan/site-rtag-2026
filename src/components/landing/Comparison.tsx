@@ -1,5 +1,6 @@
 import { Check, X } from "lucide-react";
 import { motion } from "framer-motion";
+import SectionCTA from "./SectionCTA";
 
 const rows = [
   { feature: "Estratégia personalizada por nicho", rtag: true, others: false },
@@ -52,6 +53,7 @@ export default function Comparison() {
             </div>
           ))}
         </motion.div>
+        <SectionCTA text="Escolha quem entrega resultado de verdade." />
       </div>
     </section>
   );

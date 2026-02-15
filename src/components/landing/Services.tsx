@@ -1,5 +1,6 @@
 import { MapPin, FileText, Globe, Star, Link2, BarChart3 } from "lucide-react";
 import { motion } from "framer-motion";
+import SectionCTA from "./SectionCTA";
 
 const services = [
   { icon: MapPin, title: "Google Business Profile", desc: "Otimização completa do seu perfil no Google Maps para aparecer nas buscas locais." },
@@ -41,6 +42,7 @@ export default function Services() {
             </motion.div>
           ))}
         </div>
+        <SectionCTA text="Quer todos esses serviços trabalhando para sua empresa?" />
       </div>
     </section>
   );

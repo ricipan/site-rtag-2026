@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight, ExternalLink } from "lucide-react";
+import SectionCTA from "./SectionCTA";
 import colorglassAnalytics from "@/assets/colorglass-analytics.png";
 import portoalegreVidrosAnalytics from "@/assets/portoalegre-vidros-analytics.png";
 import vidrosArteAnalytics from "@/assets/vidros-arte-analytics.png";
@@ -247,6 +248,7 @@ export default function CaseStudies() {
             </motion.div>
           ))}
         </div>
+        <SectionCTA text="Quer ver sua empresa aqui? Vamos conversar." />
       </div>
     </section>
   );
