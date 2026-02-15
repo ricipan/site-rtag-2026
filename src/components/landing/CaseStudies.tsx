@@ -66,7 +66,7 @@ const cases = [
     city: "Novo Hamburgo - RS",
     image: lucianoMatosAnalytics,
     observation: "Do zero ao topo em 4 meses",
-    siteLink: null as string | null,
+    siteLink: "https://lucianomartelinhodeouro.com.br/",
     metrics: [
       { label: "Palavra-chave", before: "—", after: "1° \"martelinho de ouro\"" },
       { label: "Contatos/mês", before: "0", after: "60+" },
