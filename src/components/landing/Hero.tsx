@@ -21,7 +21,7 @@ function DashboardMetric({ icon: Icon, label, value, color, decimals = 0 }: {
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden pt-32 pb-20 md:pt-40 md:pb-32">
+    <section className="relative overflow-hidden pt-40 pb-20 md:pt-48 md:pb-32">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-accent/5 to-transparent" />
       <div className="absolute top-20 right-1/4 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
       <div className="absolute bottom-10 left-1/4 w-56 h-56 bg-accent/10 rounded-full blur-3xl" />

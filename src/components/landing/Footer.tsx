@@ -55,7 +55,7 @@ export default function Footer() {
             </div>
             <div className="mt-4 flex gap-3">
               <a
-                href="https://instagram.com/rtag"
+                href="https://www.instagram.com/rtagseo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-lg border border-border hover:border-primary/40 transition-all"
@@ -77,7 +77,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/company/rtag"
+                href="https://www.linkedin.com/in/ricieri-pandolfo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-lg border border-border hover:border-primary/40 transition-all"
