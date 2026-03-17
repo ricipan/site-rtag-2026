@@ -77,7 +77,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/company/rtag"
+                href="https://www.linkedin.com/in/ricieri-pandolfo/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-9 w-9 items-center justify-center rounded-lg border border-border hover:border-primary/40 transition-all"
