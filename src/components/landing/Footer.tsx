@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-3">
           <div>
             <a href="#">
-              <img src={logoRtag} alt="RTAG" className="h-24" />
+              <img src={logoRtag} alt="RTAG" className="h-36" />
             </a>
             <p className="mt-3 text-sm text-muted-foreground max-w-xs">
               Posicionamos sua empresa no topo do Google com estratégias de SEO Local comprovadas.
