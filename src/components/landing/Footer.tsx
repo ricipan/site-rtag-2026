@@ -47,6 +47,11 @@ export default function Footer() {
               <a href="tel:+5551998247003" className="flex items-center gap-2 hover:text-foreground transition-colors">
                 <Phone size={14} /> (51) 99824-7003
               </a>
+              <p className="mt-2">
+                Rua Clemente Pinto, 134<br />
+                Bairro Nossa Senhora das Graças - Canoas - RS
+              </p>
+              <p>CNPJ: 54.903.227/0001-76</p>
             </div>
             <div className="mt-4 flex gap-3">
               <a
