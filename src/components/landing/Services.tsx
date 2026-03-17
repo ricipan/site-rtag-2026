@@ -3,12 +3,12 @@ import { motion } from "framer-motion";
 import SectionCTA from "./SectionCTA";
 
 const services = [
-  { icon: MapPin, title: "Google Business Profile", desc: "Otimização completa do seu perfil no Google Maps para aparecer nas buscas locais." },
-  { icon: FileText, title: "Otimização de Site e Conteúdo", desc: "Páginas e conteúdos estratégicos focados nas palavras-chave do seu mercado." },
-  { icon: Globe, title: "Citações e Diretórios Locais", desc: "Presença consistente em diretórios que reforçam sua autoridade local." },
-  { icon: Star, title: "Gestão de Avaliações", desc: "Estratégias para conquistar mais avaliações positivas e responder a todas." },
-  { icon: Link2, title: "Link Building Local", desc: "Construção de backlinks relevantes que fortalecem seu posicionamento." },
-  { icon: BarChart3, title: "Relatórios e Acompanhamento", desc: "Dashboards mensais com métricas claras de evolução e ROI." },
+  { icon: MapPin, title: "Domínio por Bairros e Cidades", desc: "Posicionamos sua empresa nas buscas de cada bairro, zona e cidade. Quem buscar perto de você, te encontra." },
+  { icon: FileText, title: "Palavras-Chave Mais Buscadas", desc: "Descobrimos exatamente o que seus clientes digitam no Google e fazemos sua empresa aparecer para essas buscas." },
+  { icon: Globe, title: "Google Business Otimizado", desc: "Seu perfil no Google Maps completo e otimizado para aparecer no topo das buscas locais." },
+  { icon: Star, title: "Avaliações que Vendem", desc: "Mais avaliações positivas = mais confiança = mais clientes. Ajudamos você a conquistar cada uma." },
+  { icon: Link2, title: "Autoridade no Google", desc: "Construímos a reputação digital da sua empresa para o Google confiar e posicionar você melhor." },
+  { icon: BarChart3, title: "Resultados que Você Acompanha", desc: "Relatórios simples e claros mostrando quantas pessoas te encontraram, ligaram e visitaram." },
 ];
 
 export default function Services() {
@@ -17,10 +17,13 @@ export default function Services() {
       <div className="container">
         <div className="mx-auto max-w-2xl text-center mb-12">
           <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-3">
-            Serviços inclusos
+            O que fazemos por você
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            Tudo que sua empresa precisa para dominar o Google Local
+            Tudo incluído para sua empresa dominar o Google
+          </p>
+          <p className="text-muted-foreground mt-4">
+            Sem complicação. Cuidamos de tudo para você só se preocupar em atender os novos clientes.
           </p>
         </div>
 

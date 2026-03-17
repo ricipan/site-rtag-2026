@@ -3,14 +3,14 @@ import { motion } from "framer-motion";
 import SectionCTA from "./SectionCTA";
 
 const rows = [
-  { feature: "Estratégia personalizada por nicho", rtag: true, others: false },
-  { feature: "Gestão completa do Google Business", rtag: true, others: false },
-  { feature: "Relatórios mensais detalhados", rtag: true, others: false },
-  { feature: "Otimização contínua de conteúdo", rtag: true, others: false },
-  { feature: "Link building local direcionado", rtag: true, others: false },
-  { feature: "Gestão de avaliações", rtag: true, others: false },
-  { feature: "Acompanhamento com especialista", rtag: true, others: false },
-  { feature: "Contrato sem fidelidade", rtag: true, others: false },
+  { feature: "Posicionamento por bairros e cidades", rtag: true, others: false },
+  { feature: "Resultados permanentes (sem pagar anúncio)", rtag: true, others: false },
+  { feature: "Palavras-chave mais buscadas no Google", rtag: true, others: false },
+  { feature: "Google Maps otimizado", rtag: true, others: false },
+  { feature: "Relatórios simples e claros", rtag: true, others: false },
+  { feature: "Gestão de avaliações de clientes", rtag: true, others: false },
+  { feature: "Acompanhamento com especialista dedicado", rtag: true, others: false },
+  { feature: "Sem contrato de fidelidade", rtag: true, others: false },
 ];
 
 export default function Comparison() {
@@ -19,10 +19,10 @@ export default function Comparison() {
       <div className="container">
         <div className="mx-auto max-w-2xl text-center mb-12">
           <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-3">
-            Comparativo
+            Por que a RTAG?
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            RTAG vs. Soluções Genéricas
+            RTAG vs. Anúncios Pagos e Agências Comuns
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export default function Comparison() {
           className="mx-auto max-w-2xl rounded-xl border border-border bg-card overflow-hidden"
         >
           <div className="grid grid-cols-3 gap-0 border-b border-border bg-muted/50 p-4 text-sm font-semibold">
-            <span>Recurso</span>
+            <span>O que você ganha</span>
             <span className="text-center text-primary">RTAG</span>
             <span className="text-center text-muted-foreground">Outros</span>
           </div>
@@ -53,7 +53,7 @@ export default function Comparison() {
             </div>
           ))}
         </motion.div>
-        <SectionCTA text="Escolha quem entrega resultado de verdade." />
+        <SectionCTA text="Escolha quem entrega resultados de verdade, sem depender de anúncios." />
       </div>
     </section>
   );
