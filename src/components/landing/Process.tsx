@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import SectionCTA from "./SectionCTA";
 
 const steps = [
-  { icon: Search, title: "Diagnóstico", desc: "Analisamos sua presença digital atual, concorrentes e oportunidades no seu mercado local." },
-  { icon: FileText, title: "Plano Estratégico", desc: "Criamos um plano personalizado com ações priorizadas para gerar resultado rápido." },
-  { icon: Rocket, title: "Execução", desc: "Implementamos todas as otimizações, conteúdos e estratégias do plano aprovado." },
-  { icon: BarChart3, title: "Resultados", desc: "Acompanhamos métricas, ajustamos estratégias e entregamos relatórios mensais." },
+  { icon: Search, title: "Entendemos seu negócio", desc: "Analisamos sua empresa, sua cidade e descobrimos o que seus clientes buscam no Google." },
+  { icon: FileText, title: "Criamos sua estratégia", desc: "Montamos um plano para posicionar sua empresa em cada bairro e região — usando as palavras-chave certas." },
+  { icon: Rocket, title: "Colocamos em prática", desc: "Fazemos todas as otimizações no Google para sua empresa começar a aparecer. Você não precisa fazer nada." },
+  { icon: BarChart3, title: "Você recebe mais clientes", desc: "Mês a mês sua empresa recebe mais ligações, mensagens e visitas — sem gastar com anúncios." },
 ];
 
 export default function Process() {
@@ -15,10 +15,13 @@ export default function Process() {
       <div className="container">
         <div className="mx-auto max-w-2xl text-center mb-12">
           <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-3">
-            Como funciona
+            Simples assim
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            4 etapas para dominar o Google Local
+            4 passos para ter mais clientes
+          </p>
+          <p className="text-muted-foreground mt-4">
+            Você não precisa entender nada de internet. A gente cuida de tudo.
           </p>
         </div>
 
@@ -39,7 +42,7 @@ export default function Process() {
               </div>
               <div className={`ml-20 md:ml-0 md:w-[calc(50%-3rem)] ${i % 2 === 0 ? "md:pr-8" : "md:pl-8 md:ml-auto"}`}>
                 <span className="font-display text-xs font-semibold uppercase tracking-widest text-primary">
-                  Etapa {i + 1}
+                  Passo {i + 1}
                 </span>
                 <h3 className="font-display text-xl font-bold mt-1">{step.title}</h3>
                 <p className="text-sm text-muted-foreground mt-1">{step.desc}</p>
@@ -47,7 +50,7 @@ export default function Process() {
             </motion.div>
           ))}
         </div>
-        <SectionCTA text="Pronto para começar? O primeiro passo é uma conversa." />
+        <SectionCTA text="Pronto para ter mais clientes? O primeiro passo é uma conversa." />
       </div>
     </section>
   );

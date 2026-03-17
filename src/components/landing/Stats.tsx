@@ -1,19 +1,19 @@
 import { useCountUp } from "@/hooks/useCountUp";
 
 const stats = [
-  { value: 160, suffix: "+", label: "Projetos Otimizados" },
-  { value: 99, suffix: "%", label: "Taxa de Renovação" },
-  { value: 1500000, suffix: "+", label: "Impressões Geradas", display: "1.5M" },
-  { value: 20, suffix: "+", label: "Cidades Atendidas" },
+  { value: 40, suffix: "%+", label: "Mais clientes para nossos parceiros" },
+  { value: 160, suffix: "+", label: "Empresas atendidas" },
+  { value: 99, suffix: "%", label: "Taxa de renovação" },
+  { value: 20, suffix: "+", label: "Cidades cobertas" },
 ];
 
-function StatItem({ value, suffix, label, display }: typeof stats[number]) {
-  const { count, ref } = useCountUp(display ? 15 : value, 2000);
+function StatItem({ value, suffix, label }: typeof stats[number]) {
+  const { count, ref } = useCountUp(value, 2000);
 
   return (
     <div ref={ref} className="text-center">
       <p className="font-display text-4xl font-bold md:text-5xl">
-        <span className="text-gradient">{display ? `${(count / 10).toFixed(1)}M` : count.toLocaleString("pt-BR")}{!display && suffix}</span>
+        <span className="text-gradient">{count.toLocaleString("pt-BR")}{suffix}</span>
       </p>
       <p className="mt-2 text-sm text-muted-foreground">{label}</p>
     </div>
@@ -30,7 +30,10 @@ export default function Stats() {
             Resultados reais
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            Números que comprovam nossa entrega
+            Números que falam por si
+          </p>
+          <p className="text-muted-foreground mt-4">
+            Sem promessas vazias. Esses são os resultados reais das empresas que trabalham com a RTAG.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-8 md:grid-cols-4">

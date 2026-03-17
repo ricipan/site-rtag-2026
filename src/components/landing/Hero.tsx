@@ -34,7 +34,7 @@ export default function Hero() {
           >
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
               <TrendingUp size={16} />
-              Especialistas em SEO Local
+              Clientes no Google sem pagar por anúncios
             </div>
           </motion.div>
 
@@ -44,9 +44,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Coloque sua empresa no{" "}
-            <span className="text-gradient">topo do Google</span> e conquiste
-            mais clientes
+            Sua empresa encontrada no{" "}
+            <span className="text-gradient">Google</span> por clientes de{" "}
+            <span className="text-gradient">toda a sua cidade</span>
           </motion.h1>
 
           <motion.p
@@ -55,9 +55,10 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            A RTAG posiciona sua empresa nas primeiras posições do Google com
-            estratégias de SEO Local comprovadas. Mais visibilidade, mais
-            ligações, mais clientes.
+            Fazemos sua empresa aparecer no topo do Google quando alguém busca
+            pelo seu serviço — em cada bairro, zona e cidade. Sem gastar com
+            anúncios. Nossos clientes já tiveram{" "}
+            <strong className="text-foreground">mais de 40% de aumento na quantidade de clientes</strong>.
           </motion.p>
 
           <motion.div
@@ -68,7 +69,7 @@ export default function Hero() {
           >
             <Button size="lg" asChild className="gap-2 text-base px-8 py-6">
               <a href="#contato">
-                Agendar Conversa Estratégica
+                Quero Mais Clientes
                 <ArrowRight size={18} />
               </a>
             </Button>
@@ -78,7 +79,7 @@ export default function Hero() {
               asChild
               className="text-base px-8 py-6"
             >
-              <a href="#resultados">Ver Resultados</a>
+              <a href="#resultados">Ver Como Funciona</a>
             </Button>
           </motion.div>
 
@@ -97,21 +98,21 @@ export default function Hero() {
                   <div className="h-3 w-3 rounded-full bg-amber-400" />
                   <div className="h-3 w-3 rounded-full bg-green-400" />
                 </div>
-                <span className="text-xs text-muted-foreground font-medium">RTAG Analytics — Últimos 30 dias</span>
+                <span className="text-xs text-muted-foreground font-medium">RTAG — Resultados Reais dos Nossos Clientes</span>
               </div>
 
               {/* Metric cards */}
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-5">
-                <DashboardMetric icon={Eye} label="Impressões" value={48200} suffix="" color="text-primary" />
-                <DashboardMetric icon={MousePointerClick} label="Cliques" value={3750} suffix="" color="text-accent" />
-                <DashboardMetric icon={PhoneCall} label="Ligações" value={142} suffix="" color="text-green-400" />
-                <DashboardMetric icon={MapPin} label="Posição Média" value={2.4} suffix="" decimals={1} color="text-amber-400" />
+                <DashboardMetric icon={Eye} label="Pessoas viram no Google" value={48200} suffix="" color="text-primary" />
+                <DashboardMetric icon={MousePointerClick} label="Clicaram no site" value={3750} suffix="" color="text-accent" />
+                <DashboardMetric icon={PhoneCall} label="Ligaram para a empresa" value={142} suffix="" color="text-green-400" />
+                <DashboardMetric icon={MapPin} label="Posição no Google" value={2.4} suffix="" decimals={1} color="text-amber-400" />
               </div>
 
               {/* Fake chart bars */}
               <div className="rounded-xl bg-secondary p-4">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-medium text-muted-foreground">Evolução de Impressões</span>
+                  <span className="text-xs font-medium text-muted-foreground">Crescimento mês a mês</span>
                   <span className="text-xs text-primary font-semibold">+127% ↑</span>
                 </div>
                 <div className="flex items-end gap-1.5 h-20">

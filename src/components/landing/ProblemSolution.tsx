@@ -2,15 +2,15 @@ import { AlertTriangle, Eye, DollarSign, Target, CheckCircle, TrendingUp } from 
 import { motion } from "framer-motion";
 
 const problems = [
-  { icon: Eye, title: "Invisível no Google", desc: "Clientes procuram seu serviço, mas encontram o concorrente." },
-  { icon: AlertTriangle, title: "Dependência de indicação", desc: "Seu faturamento fica refém de quem lembra de você." },
-  { icon: DollarSign, title: "Anúncios cada vez mais caros", desc: "Custo por clique sobe e o retorno diminui." },
+  { icon: Eye, title: "Ninguém te encontra no Google", desc: "Quando alguém busca pelo seu serviço na sua cidade, quem aparece é o concorrente — não você." },
+  { icon: AlertTriangle, title: "Depende de indicação para vender", desc: "Se ninguém te indica, ninguém te liga. Seu faturamento fica na mão dos outros." },
+  { icon: DollarSign, title: "Gasta com anúncios e não vê retorno", desc: "Você paga cada vez mais caro por cliques e os resultados somem quando para de pagar." },
 ];
 
 const solutions = [
-  { icon: Target, title: "Posicionamento orgânico", desc: "Apareça nas buscas de quem procura exatamente o que você oferece." },
-  { icon: CheckCircle, title: "Fluxo previsível de leads", desc: "Receba contatos qualificados todos os meses, sem depender de sorte." },
-  { icon: TrendingUp, title: "Investimento que escala", desc: "SEO gera resultados crescentes com custo fixo controlado." },
+  { icon: Target, title: "Apareça em toda a cidade", desc: "Posicionamos sua empresa nas buscas de cada bairro, zona e cidade — para ser encontrado por quem está perto de você." },
+  { icon: CheckCircle, title: "Clientes todos os meses, sem pagar anúncio", desc: "Com SEO, os resultados são permanentes. Você recebe ligações e mensagens de clientes novos todo mês." },
+  { icon: TrendingUp, title: "+40% mais clientes comprovado", desc: "Nossos clientes já aumentaram em mais de 40% a quantidade de clientes — de forma orgânica e duradoura." },
 ];
 
 const container = {
@@ -27,13 +27,31 @@ export default function ProblemSolution() {
   return (
     <section className="py-20 md:py-28">
       <div className="container">
+        {/* Simple explanation */}
+        <div className="mx-auto max-w-3xl text-center mb-16">
+          <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-4">
+            O que a RTAG faz?
+          </h2>
+          <p className="font-display text-2xl font-bold md:text-3xl mb-4">
+            Explicando de forma simples
+          </p>
+          <p className="text-muted-foreground text-lg leading-relaxed">
+            Imagine que alguém pega o celular e digita no Google:{" "}
+            <strong className="text-foreground">"encanador perto de mim"</strong> ou{" "}
+            <strong className="text-foreground">"vidraçaria em Porto Alegre"</strong>.
+            Nós fazemos a <strong className="text-foreground">sua empresa aparecer primeiro</strong> nessa busca.
+            E fazemos isso para <strong className="text-foreground">cada bairro e cada região</strong> da sua cidade —
+            sem você precisar gastar um centavo com anúncio.
+          </p>
+        </div>
+
         <div className="grid gap-16 lg:grid-cols-2">
           <div>
             <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-destructive mb-4">
-              O problema
+              Isso acontece com você?
             </h2>
             <p className="font-display text-2xl font-bold md:text-3xl mb-8">
-              Sua empresa está perdendo clientes agora mesmo
+              Sua empresa está invisível para quem mais precisa dela
             </p>
             <motion.div
               className="space-y-4"
@@ -62,10 +80,10 @@ export default function ProblemSolution() {
 
           <div>
             <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-4">
-              A solução
+              Como a RTAG resolve
             </h2>
             <p className="font-display text-2xl font-bold md:text-3xl mb-8">
-              SEO Local gerenciado pela RTAG
+              Resultados permanentes sem depender de anúncios
             </p>
             <motion.div
               className="space-y-4"
