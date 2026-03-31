@@ -44,9 +44,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Sua empresa encontrada no{" "}
-            <span className="text-gradient">Google</span> por clientes de{" "}
-            <span className="text-gradient">toda a sua cidade</span>
+            A sua empresa pode ter{" "}
+            <span className="text-gradient">40% mais clientes</span>. As que já trabalham conosco{" "}
+            <span className="text-gradient">sabem disso</span>.
           </motion.h1>
 
           <motion.p
