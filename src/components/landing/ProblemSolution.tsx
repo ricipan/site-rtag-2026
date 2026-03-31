@@ -36,10 +36,10 @@ export default function ProblemSolution() {
             Explicando de forma simples
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Imagine que alguém pega o celular e digita no Google:{" "}
+            Imagine que alguém pega o celular e digita no Google, pergunta ao <strong className="text-foreground">ChatGPT</strong> ou ao <strong className="text-foreground">Gemini</strong>:{" "}
             <strong className="text-foreground">"encanador perto de mim"</strong> ou{" "}
             <strong className="text-foreground">"vidraçaria em Porto Alegre"</strong>.
-            Nós fazemos a <strong className="text-foreground">sua empresa aparecer primeiro</strong> nessa busca.
+            Nós fazemos a <strong className="text-foreground">sua empresa aparecer primeiro</strong> — no Google e ser recomendada pelas IAs.
             E fazemos isso para <strong className="text-foreground">cada bairro e cada região</strong> da sua cidade —
             sem você precisar gastar um centavo com anúncio.
           </p>

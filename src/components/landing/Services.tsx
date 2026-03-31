@@ -20,7 +20,7 @@ export default function Services() {
             O que fazemos por você
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            Tudo incluído para sua empresa dominar o Google
+            Tudo incluído para sua empresa dominar o Google, ChatGPT e Gemini
           </p>
           <p className="text-muted-foreground mt-4">
             Sem complicação. Cuidamos de tudo para você só se preocupar em atender os novos clientes.

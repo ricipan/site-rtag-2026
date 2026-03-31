@@ -31,8 +31,8 @@ export default function ContactForm() {
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Nossos resultados falam por si — e nossos clientes comprovam. 
               Agende uma reunião estratégica gratuita e vamos te mostrar, com dados reais, 
-              como posicionar sua empresa nas primeiras posições do Google e 
-              gerar demanda constante de novos clientes.
+              como posicionar sua empresa nas primeiras posições do Google, ser citada pelo ChatGPT 
+              e recomendada pelo Gemini — gerando demanda constante de novos clientes.
             </p>
           </motion.div>
 
