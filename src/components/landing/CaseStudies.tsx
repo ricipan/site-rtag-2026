@@ -98,7 +98,7 @@ export default function CaseStudies() {
             Casos de sucesso
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            Nossos clientes dominam o Google
+            Nossos clientes dominam o Google, ChatGPT e Gemini
           </p>
         </div>
 
