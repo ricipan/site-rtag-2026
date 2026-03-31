@@ -55,10 +55,13 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Fazemos sua empresa aparecer no topo do Google quando alguém busca
-            pelo seu serviço — em cada bairro, zona e cidade. Sem gastar com
-            anúncios. Nossos clientes já tiveram{" "}
-            <strong className="text-foreground">mais de 40% de aumento na quantidade de clientes</strong>.
+            A maioria dos negócios joga dinheiro fora em anúncios que somem quando o pagamento para. Existe um caminho mais inteligente.
+            <br /><br />
+            <strong className="text-foreground">SEO é a arte de fazer o Google trabalhar por você</strong> — de graça, todos os dias, 24 horas.
+            <br /><br />
+            Criamos conteúdo estratégico que posiciona o seu negócio como referência absoluta na internet. Seu nome aparecendo nas primeiras buscas do Google, sendo citado pelo <strong className="text-foreground">ChatGPT</strong> e recomendado pelo <strong className="text-foreground">Gemini</strong> — enquanto você foca no que realmente importa: o seu negócio crescendo.
+            <br /><br />
+            <strong className="text-foreground">Isso não é sorte. É estratégia.</strong>
           </motion.p>
 
           <motion.div
