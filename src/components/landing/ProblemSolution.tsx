@@ -2,7 +2,7 @@ import { AlertTriangle, Eye, DollarSign, Target, CheckCircle, TrendingUp } from 
 import { motion } from "framer-motion";
 
 const problems = [
-  { icon: Eye, title: "Ninguém te encontra no Google", desc: "Quando alguém busca pelo seu serviço na sua cidade, quem aparece é o concorrente — não você." },
+  { icon: Eye, title: "Ninguém te encontra no Google nem nas IAs", desc: "Quando alguém busca pelo seu serviço no Google, ChatGPT ou Gemini, quem aparece é o concorrente — não você." },
   { icon: AlertTriangle, title: "Depende de indicação para vender", desc: "Se ninguém te indica, ninguém te liga. Seu faturamento fica na mão dos outros." },
   { icon: DollarSign, title: "Gasta com anúncios e não vê retorno", desc: "Você paga cada vez mais caro por cliques e os resultados somem quando para de pagar." },
 ];
