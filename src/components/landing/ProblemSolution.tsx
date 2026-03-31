@@ -2,13 +2,13 @@ import { AlertTriangle, Eye, DollarSign, Target, CheckCircle, TrendingUp } from 
 import { motion } from "framer-motion";
 
 const problems = [
-  { icon: Eye, title: "Ninguém te encontra no Google", desc: "Quando alguém busca pelo seu serviço na sua cidade, quem aparece é o concorrente — não você." },
+  { icon: Eye, title: "Ninguém te encontra no Google nem nas IAs", desc: "Quando alguém busca pelo seu serviço no Google, ChatGPT ou Gemini, quem aparece é o concorrente — não você." },
   { icon: AlertTriangle, title: "Depende de indicação para vender", desc: "Se ninguém te indica, ninguém te liga. Seu faturamento fica na mão dos outros." },
   { icon: DollarSign, title: "Gasta com anúncios e não vê retorno", desc: "Você paga cada vez mais caro por cliques e os resultados somem quando para de pagar." },
 ];
 
 const solutions = [
-  { icon: Target, title: "Apareça em toda a cidade", desc: "Posicionamos sua empresa nas buscas de cada bairro, zona e cidade — para ser encontrado por quem está perto de você." },
+  { icon: Target, title: "Apareça em toda a cidade — no Google e nas IAs", desc: "Posicionamos sua empresa nas buscas do Google, ChatGPT e Gemini em cada bairro, zona e cidade — para ser encontrado por quem está perto de você." },
   { icon: CheckCircle, title: "Clientes todos os meses, sem pagar anúncio", desc: "Com SEO, os resultados são permanentes. Você recebe ligações e mensagens de clientes novos todo mês." },
   { icon: TrendingUp, title: "+40% mais clientes comprovado", desc: "Nossos clientes já aumentaram em mais de 40% a quantidade de clientes — de forma orgânica e duradoura." },
 ];
@@ -36,10 +36,10 @@ export default function ProblemSolution() {
             Explicando de forma simples
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Imagine que alguém pega o celular e digita no Google:{" "}
+            Imagine que alguém pega o celular e digita no Google, pergunta ao <strong className="text-foreground">ChatGPT</strong> ou ao <strong className="text-foreground">Gemini</strong>:{" "}
             <strong className="text-foreground">"encanador perto de mim"</strong> ou{" "}
             <strong className="text-foreground">"vidraçaria em Porto Alegre"</strong>.
-            Nós fazemos a <strong className="text-foreground">sua empresa aparecer primeiro</strong> nessa busca.
+            Nós fazemos a <strong className="text-foreground">sua empresa aparecer primeiro</strong> — no Google e ser recomendada pelas IAs.
             E fazemos isso para <strong className="text-foreground">cada bairro e cada região</strong> da sua cidade —
             sem você precisar gastar um centavo com anúncio.
           </p>

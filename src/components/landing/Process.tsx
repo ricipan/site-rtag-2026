@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import SectionCTA from "./SectionCTA";
 
 const steps = [
-  { icon: Search, title: "Entendemos seu negócio", desc: "Analisamos sua empresa, sua cidade e descobrimos o que seus clientes buscam no Google." },
-  { icon: FileText, title: "Criamos sua estratégia", desc: "Montamos um plano para posicionar sua empresa em cada bairro e região — usando as palavras-chave certas." },
-  { icon: Rocket, title: "Colocamos em prática", desc: "Fazemos todas as otimizações no Google para sua empresa começar a aparecer. Você não precisa fazer nada." },
+  { icon: Search, title: "Entendemos seu negócio", desc: "Analisamos sua empresa, sua cidade e descobrimos o que seus clientes buscam no Google, ChatGPT e Gemini." },
+  { icon: FileText, title: "Criamos sua estratégia", desc: "Montamos um plano para posicionar sua empresa em cada bairro e região — no Google e nas IAs do mercado." },
+  { icon: Rocket, title: "Colocamos em prática", desc: "Fazemos todas as otimizações para sua empresa aparecer no Google, ser citada pelo ChatGPT e recomendada pelo Gemini." },
   { icon: BarChart3, title: "Você recebe mais clientes", desc: "Mês a mês sua empresa recebe mais ligações, mensagens e visitas — sem gastar com anúncios." },
 ];
 

@@ -5,8 +5,8 @@ import SectionCTA from "./SectionCTA";
 const rows = [
   { feature: "Posicionamento por bairros e cidades", rtag: true, others: false },
   { feature: "Resultados permanentes (sem pagar anúncio)", rtag: true, others: false },
-  { feature: "Palavras-chave mais buscadas no Google", rtag: true, others: false },
-  { feature: "Google Maps otimizado", rtag: true, others: false },
+  { feature: "Palavras-chave mais buscadas no Google e nas IAs", rtag: true, others: false },
+  { feature: "Google Maps + presença no ChatGPT e Gemini", rtag: true, others: false },
   { feature: "Relatórios simples e claros", rtag: true, others: false },
   { feature: "Gestão de avaliações de clientes", rtag: true, others: false },
   { feature: "Acompanhamento com especialista dedicado", rtag: true, others: false },

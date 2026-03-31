@@ -98,7 +98,7 @@ export default function CaseStudies() {
             Casos de sucesso
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            Nossos clientes dominam o Google
+            Nossos clientes dominam o Google, ChatGPT e Gemini
           </p>
         </div>
 
@@ -180,8 +180,8 @@ export default function CaseStudies() {
           <p className="text-muted-foreground max-w-3xl mx-auto leading-relaxed text-base md:text-lg">
             Nosso trabalho vai além do básico. Utilizamos <span className="text-primary font-semibold">ferramentas de espionagem do Google</span> para
             mapear cada palavra-chave relevante do seu mercado. A partir disso, criamos um projeto de crescimento
-            personalizado cobrindo <span className="text-primary font-semibold">todos os serviços e bairros da sua cidade</span> — literalmente
-            dominando a região de todas as formas. Cada decisão é guiada por dados, cada ação é estratégica.
+            personalizado cobrindo <span className="text-primary font-semibold">todos os serviços e bairros da sua cidade</span> — dominando o Google
+            e garantindo que sua empresa seja <span className="text-primary font-semibold">citada pelo ChatGPT e recomendada pelo Gemini</span>. Cada decisão é guiada por dados, cada ação é estratégica.
           </p>
         </motion.div>
 

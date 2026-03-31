@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle, ShieldCheck, TrendingUp, Users } from "lucid
 import { motion } from "framer-motion";
 
 const proofs = [
-  { icon: TrendingUp, text: "160+ empresas posicionadas no topo do Google" },
+  { icon: TrendingUp, text: "160+ empresas no topo do Google, ChatGPT e Gemini" },
   { icon: Users, text: "99% dos clientes renovam conosco" },
   { icon: ShieldCheck, text: "Resultados comprovados — fale com nossos clientes" },
 ];
@@ -21,7 +21,7 @@ export default function ContactForm() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-4">
-              Pronto para dominar o Google?
+              Pronto para dominar o Google, ChatGPT e Gemini?
             </h2>
             <p className="font-display text-3xl font-bold md:text-5xl leading-tight">
               Seus concorrentes já estão na frente.
@@ -31,8 +31,8 @@ export default function ContactForm() {
             <p className="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Nossos resultados falam por si — e nossos clientes comprovam. 
               Agende uma reunião estratégica gratuita e vamos te mostrar, com dados reais, 
-              como posicionar sua empresa nas primeiras posições do Google e 
-              gerar demanda constante de novos clientes.
+              como posicionar sua empresa nas primeiras posições do Google, ser citada pelo ChatGPT 
+              e recomendada pelo Gemini — gerando demanda constante de novos clientes.
             </p>
           </motion.div>
 

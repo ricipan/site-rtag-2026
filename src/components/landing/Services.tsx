@@ -4,10 +4,10 @@ import SectionCTA from "./SectionCTA";
 
 const services = [
   { icon: MapPin, title: "Domínio por Bairros e Cidades", desc: "Posicionamos sua empresa nas buscas de cada bairro, zona e cidade. Quem buscar perto de você, te encontra." },
-  { icon: FileText, title: "Palavras-Chave Mais Buscadas", desc: "Descobrimos exatamente o que seus clientes digitam no Google e fazemos sua empresa aparecer para essas buscas." },
-  { icon: Globe, title: "Google Business Otimizado", desc: "Seu perfil no Google Maps completo e otimizado para aparecer no topo das buscas locais." },
+  { icon: FileText, title: "Palavras-Chave Mais Buscadas", desc: "Descobrimos exatamente o que seus clientes buscam no Google, ChatGPT e Gemini — e fazemos sua empresa aparecer para essas buscas." },
+  { icon: Globe, title: "Google Business + Presença nas IAs", desc: "Seu perfil no Google Maps otimizado e conteúdo estratégico para ser recomendado pelo ChatGPT e Gemini." },
   { icon: Star, title: "Avaliações que Vendem", desc: "Mais avaliações positivas = mais confiança = mais clientes. Ajudamos você a conquistar cada uma." },
-  { icon: Link2, title: "Autoridade no Google", desc: "Construímos a reputação digital da sua empresa para o Google confiar e posicionar você melhor." },
+  { icon: Link2, title: "Autoridade no Google e nas IAs", desc: "Construímos a reputação digital da sua empresa para o Google confiar, o ChatGPT citar e o Gemini recomendar." },
   { icon: BarChart3, title: "Resultados que Você Acompanha", desc: "Relatórios simples e claros mostrando quantas pessoas te encontraram, ligaram e visitaram." },
 ];
 
@@ -20,7 +20,7 @@ export default function Services() {
             O que fazemos por você
           </h2>
           <p className="font-display text-3xl font-bold md:text-4xl">
-            Tudo incluído para sua empresa dominar o Google
+            Tudo incluído para sua empresa dominar o Google, ChatGPT e Gemini
           </p>
           <p className="text-muted-foreground mt-4">
             Sem complicação. Cuidamos de tudo para você só se preocupar em atender os novos clientes.
