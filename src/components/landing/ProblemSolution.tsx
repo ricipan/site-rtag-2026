@@ -8,7 +8,7 @@ const problems = [
 ];
 
 const solutions = [
-  { icon: Target, title: "Apareça em toda a cidade", desc: "Posicionamos sua empresa nas buscas de cada bairro, zona e cidade — para ser encontrado por quem está perto de você." },
+  { icon: Target, title: "Apareça em toda a cidade — no Google e nas IAs", desc: "Posicionamos sua empresa nas buscas do Google, ChatGPT e Gemini em cada bairro, zona e cidade — para ser encontrado por quem está perto de você." },
   { icon: CheckCircle, title: "Clientes todos os meses, sem pagar anúncio", desc: "Com SEO, os resultados são permanentes. Você recebe ligações e mensagens de clientes novos todo mês." },
   { icon: TrendingUp, title: "+40% mais clientes comprovado", desc: "Nossos clientes já aumentaram em mais de 40% a quantidade de clientes — de forma orgânica e duradoura." },
 ];
