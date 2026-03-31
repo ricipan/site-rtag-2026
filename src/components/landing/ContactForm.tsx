@@ -21,7 +21,7 @@ export default function ContactForm() {
             transition={{ duration: 0.5 }}
           >
             <h2 className="font-display text-sm font-semibold uppercase tracking-widest text-primary mb-4">
-              Pronto para dominar o Google?
+              Pronto para dominar o Google, ChatGPT e Gemini?
             </h2>
             <p className="font-display text-3xl font-bold md:text-5xl leading-tight">
               Seus concorrentes já estão na frente.
