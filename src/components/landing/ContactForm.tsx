@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle, ShieldCheck, TrendingUp, Users } from "lucid
 import { motion } from "framer-motion";
 
 const proofs = [
-  { icon: TrendingUp, text: "160+ empresas posicionadas no topo do Google" },
+  { icon: TrendingUp, text: "160+ empresas no topo do Google, ChatGPT e Gemini" },
   { icon: Users, text: "99% dos clientes renovam conosco" },
   { icon: ShieldCheck, text: "Resultados comprovados — fale com nossos clientes" },
 ];
