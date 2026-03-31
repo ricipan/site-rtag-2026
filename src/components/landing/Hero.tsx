@@ -34,7 +34,7 @@ export default function Hero() {
           >
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary">
               <TrendingUp size={16} />
-              Clientes no Google sem pagar por anúncios
+              Há 10+ anos Especialista em SEO
             </div>
           </motion.div>
 
